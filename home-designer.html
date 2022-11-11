@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Home Default || Inbio - Personal Portfolio Bootstrap Template</title>
+    <title>Home Designer || Inbio - Personal Portfolio Bootstrap Template</title>
     <meta name="robots" content="noindex, follow" />
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -21,8 +21,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body class="template-color-1 spybody" data-spy="scroll" data-target=".navbar-example2" data-offset="70">
-
+<body class="template-color-1 home-vedio spybody" data-spy="scroll" data-target=".navbar-example2" data-offset="150">
     <!-- Start Header -->
     <header class="rn-header haeder-default black-logo-version header--fixed header--sticky">
         <div class="header-wrapper rn-popup-mobile-menu m--0 row align-items-center">
@@ -129,34 +128,21 @@
 
 
 
-
+    <!-- Start Main Page Wrapper -->
     <main class="main-page-wrapper">
 
         <!-- Start Slider Area -->
-        <div id="home" class="rn-slider-area">
-            <div class="slide slider-style-1">
+        <div class="rn-slider-area">
+            <div class="slide slider-style-1 with-square-box">
                 <div class="container">
                     <div class="row row--30 align-items-center">
+
                         <div class="order-2 order-lg-1 col-lg-7 mt_md--50 mt_sm--50 mt_lg--30">
                             <div class="content">
                                 <div class="inner">
                                     <span class="subtitle">Welcome to my world</span>
-                                    <h1 class="title">Hi, I’m <span>Jone Lee</span><br>
-                                        <span class="header-caption" id="page-top">
-                                            <!-- type headline start-->
-                                            <span class="cd-headline clip is-full-width">
-                                                <span>a </span>
-                                        <!-- ROTATING TEXT -->
-                                        <span class="cd-words-wrapper">
-                                                    <b class="is-visible">Developer.</b>
-                                                    <b class="is-hidden">Professional Coder.</b>
-                                                    <b class="is-hidden">Developer.</b>
-                                                </span>
-                                        </span>
-                                        <!-- type headline end -->
-                                        </span>
-                                    </h1>
-
+                                    <h1 class="title">Hi, I’m <span>Jone Lee</span><br><span
+                                            class="span"> UI/UX Designer.</span></h1>
                                     <div>
                                         <p class="description">I use animation as a third dimension by which to simplify
                                             experiences and kuiding thro each and every interaction. I’m not adding
@@ -165,6 +151,7 @@
                                     </div>
                                 </div>
                                 <div class="row">
+
                                     <div class="col-lg-6 col-xl-6 col-md-6 col-sm-6 col-12">
                                         <div class="social-share-inner-left">
                                             <span class="title">find with me</span>
@@ -178,13 +165,14 @@
                                             </ul>
                                         </div>
                                     </div>
+
                                     <div class="col-lg-6 col-xl-6 col-md-6 col-sm-6 col-12 mt_mobile--30">
                                         <div class="skill-share-inner">
                                             <span class="title">best skill on</span>
                                             <ul class="skill-share d-flex liststyle">
-                                                <li><img src="assets/images/icons/icons-01.png" alt="Icons Images"></li>
-                                                <li><img src="assets/images/icons/icons-02.png" alt="Icons Images"></li>
-                                                <li><img src="assets/images/icons/icons-03.png" alt="Icons Images"></li>
+                                                <li><img src="assets/images/icons/icons-01.png" alt="personal Portfolio Images"></li>
+                                                <li><img src="assets/images/icons/icons-02.png" alt="personal Portfolio Images"></li>
+                                                <li><img src="assets/images/icons/icons-03.png" alt="personal Portfolio Images"></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -193,10 +181,16 @@
                         </div>
 
                         <div class="order-1 order-lg-2 col-lg-5">
-                            <div class="thumbnail">
-                                <div class="inner">
-                                    <img src="assets/images/slider/banner-01.png" alt="Personal Portfolio Images">
+                            <a id="play-video" class="video-play-button" href="#">
+                                <span></span>
+                            </a>
+                            <div class="thumbnail style-2">
+                                <div class="inner ">
+                                    <img class="w-100" src="assets/images/slider/banner-03.png" alt="Personal Portfolio Images">
                                 </div>
+                            </div>
+                            <div id="video-overlay" class="video-overlay">
+                                <a class="video-overlay-close">&times;</a>
                             </div>
                         </div>
                     </div>
@@ -338,7 +332,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="section-title text-center">
+                        <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" data-aos-once="true" class="section-title text-center">
                             <span class="subtitle">Visit my portfolio and keep your feedback</span>
                             <h2 class="title">My Portfolio</h2>
                         </div>
@@ -511,6 +505,7 @@
             </div>
         </div>
         <!-- End portfolio Area -->
+
 
         <!-- Start Resume Area -->
         <div class="rn-resume-area rn-section-gap section-separator" id="resume">
@@ -3048,7 +3043,6 @@
             </div>
         </div>
         <!-- Back to top end -->
-
 
 
     </main>
